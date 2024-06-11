@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [nvidia_shieldTV]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="nvidia_shieldTV-0(failed)" verbose="0">
+    <parameter name="platform" value="0"/>
+    <classes>
+      <class name="org.demo.nvidia_shieldTV">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="nvidiaTest"/>
+        </methods>
+      </class> <!-- org.demo.nvidia_shieldTV -->
+    </classes>
+  </test> <!-- nvidia_shieldTV-0(failed) -->
+</suite> <!-- Failed suite [nvidia_shieldTV] -->

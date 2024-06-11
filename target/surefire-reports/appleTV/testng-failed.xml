@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [appleTV]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="appleTV-0(failed)" verbose="0">
+    <parameter name="platform" value="0"/>
+    <classes>
+      <class name="org.demo.appleTV">
+        <methods>
+          <include name="appleTVTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.demo.appleTV -->
+    </classes>
+  </test> <!-- appleTV-0(failed) -->
+</suite> <!-- Failed suite [appleTV] -->
