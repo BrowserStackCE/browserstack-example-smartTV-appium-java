@@ -23,8 +23,8 @@ import static io.appium.java_client.MobileCommand.pressKeyCodeCommand;
 
 public class appleTV {
     DesiredCapabilities caps = new DesiredCapabilities();
-    String username ="nitishbhardwaj_5gA7SZ";;
-    public String accessKey =  "pA7Scg2dhesPdfqHpLe9";
+    String username ="";;
+    public String accessKey =  "";
     private static final String BROWSERSTACK_HUB_URL = "hub-cloud.browserstack.com";
     public AppiumDriver driver;
 
