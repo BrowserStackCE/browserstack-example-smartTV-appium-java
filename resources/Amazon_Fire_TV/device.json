@@ -1,0 +1,9 @@
+{
+  "deviceName": "Amazon Fire TV Stick 4K",
+  "os": "Android",
+  "osVersion": "7.1",
+  "deviceScreenSize": "1080x2400",
+  "statusBarHeight": 104,
+  "navigationBarHeight": 229,
+  "orientation": "portrait"
+}

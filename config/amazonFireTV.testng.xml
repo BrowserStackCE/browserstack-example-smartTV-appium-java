@@ -4,6 +4,7 @@
     <test name="amazonFireTV">
         <classes>
             <class name="org.demo.amazonFireTV" />
+
         </classes>
     </test>
 </suite>

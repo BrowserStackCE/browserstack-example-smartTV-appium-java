@@ -35,6 +35,13 @@ export BROWSERSTACK_CONFIG_FILE="src/resources/conf/browserstack-appleTV.yml"
 mvn test -P appleTV
 ```
 
+4. Run a test on Amazon FireTV and upload screenshot on Percy
+``` 
+export PERCY_TOKEN=
+
+npx percy app:exec -- mvn test -P androidFireTVPercy
+```
+
 ## Notes
 
 ---

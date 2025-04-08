@@ -1,0 +1,6 @@
+# Created at 2025-03-21T03:53:13.827
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 105c5066-8bdb-4192-8610-e02a12ceea80'.
+
+# Created at 2025-03-21T03:53:17.548
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] Testhub started with id: 4ixw4vgfhchu6jjlsyojuurqmoujfslcpxfqxrhx'.
+

@@ -3,8 +3,8 @@
 # =============================
 # Add your BrowserStack userName and accessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName: 
-accessKey: 
+userName:
+accessKey:
 
 # ======================
 # BrowserStack Reporting
@@ -29,7 +29,7 @@ buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${
 # OR
 # app: 'bs://<app-id>' # App URL returned when uploading the app to BrowserStack manually
 # Visit https://www.browserstack.com/docs/app-automate/appium/set-up-tests/specify-app for more options
-app: bs://506a7b1c148ce98416d0a7760f56d5dcb3b70774 # BrowserStack Sample App
+app: bs://b359a0393ae2b96b331c26a80a5395b530375dae # BrowserStack Sample App
 
 # =======================================
 # Platforms (Browsers / Devices to test)
@@ -53,7 +53,7 @@ platforms:
 # Example 2 - If you have configured 1 platform and set `parallelsPerPlatform` as 5, a total of 5 (1 * 5) parallel threads will be used on BrowserStack
 parallelsPerPlatform: 1
 
-source: java:appium-intellij:v1.1.2
+source: testng:sdk-archetype-integrate:v1.0
 
 # ==========================================
 # BrowserStack Local
@@ -76,3 +76,6 @@ debug: false # <boolean> # Set to true if you need screenshots for every seleniu
 networkLogs: false # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
+# Test Observability is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-observability/references/terms-and-conditions
+# Visit observability.browserstack.com to see your test reports and insights. To disable test observability, specify `testObservability: false` in the key below.
+testObservability: true

@@ -14,31 +14,36 @@ import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import static io.appium.java_client.MobileCommand.pressKeyCodeCommand;
-
+//import com.browserstack.AppPercySDK;
+import io.appium.java_client.android.AndroidDriver;
+//import io.appium.java_client.android.AndroidElement;
 public class amazonFireTV {
 
-   public AppiumDriver driver;
+   public AndroidDriver driver;
 
     @BeforeMethod(alwaysRun=true)
     public void setUp() throws Exception {
+
         MutableCapabilities capabilities = new MutableCapabilities();
         HashMap<String, String> bstackOptions = new HashMap<>();
         bstackOptions.putIfAbsent("source", "testng-java:sample-sdk:v1.0");
         capabilities.setCapability("bstack:options", bstackOptions);
-        driver = new AndroidDriver(new URL("https://hub-cloud.browserstack.com/wd/hub"), capabilities);
+        driver = new AndroidDriver(new URL("https://hub.browserstack.com/wd/hub"), capabilities);
+
     }
     @Test
     public void testt() throws Exception {
 
         Thread.sleep(5000);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-
+      //  AppPercySDK.screenshot(driver, "My Screenshot");
         WebElement next_button = (WebElement) wait.until(
                 ExpectedConditions.elementToBeClickable(AppiumBy.xpath("//android.view.View[@content-desc=\"Next\"]")));
         next_button.click();

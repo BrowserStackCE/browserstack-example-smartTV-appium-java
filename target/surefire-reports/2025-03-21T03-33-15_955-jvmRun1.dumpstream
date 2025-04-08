@@ -1,0 +1,9 @@
+# Created at 2025-03-21T03:33:17.001
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 61e416c0-ddc7-430c-b2aa-5f314036941d'.
+
+# Created at 2025-03-21T03:33:20.461
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] Testhub started with id: so9rnrwn9brfe54cnzlusahqcciwtsi4fsuyoksb'.
+
+# Created at 2025-03-21T03:33:20.989
+Suite file /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/config/smartTV.testng.xml is not a valid file
+

@@ -1,0 +1,18 @@
+# Created at 2025-04-08T20:31:44.265
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 6ae3453c-5ecb-44c5-ae22-c81aac34c4e5'.
+
+# Created at 2025-04-08T20:31:48.345
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] Testhub started with id: 54cfamxwbsggsql4dbegfpmzkbiaduxgkowfn5b4'.
+
+# Created at 2025-04-08T20:34:56.288
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'folderpath ./resources'.
+
+# Created at 2025-04-08T20:34:56.293
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'device full folder /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/resources/AmazonSmartTV'.
+
+# Created at 2025-04-08T20:34:56.294
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'device full folder /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/resources/Amazon_Fire_TV'.
+
+# Created at 2025-04-08T20:34:56.295
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'device full folder /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/resources/OnePlus8'.
+

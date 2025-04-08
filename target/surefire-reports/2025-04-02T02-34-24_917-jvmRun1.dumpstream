@@ -1,0 +1,114 @@
+# Created at 2025-04-02T02:34:25.832
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] SDK run started with id: 756c1c62-fc0a-4955-a370-27ff083e8ba5'.
+
+# Created at 2025-04-02T02:34:29.749
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[1;34mINFO[0;39m] Testhub started with id: kqvyywmzwzvxeuxulu0zxsw4wkgm1ihr7h2n5jr5'.
+
+# Created at 2025-04-02T02:36:33.380
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - get_started_click.png'.
+
+# Created at 2025-04-02T02:36:33.381
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - key_press_22.png'.
+
+# Created at 2025-04-02T02:36:33.381
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - key_press_23.png'.
+
+# Created at 2025-04-02T02:36:33.381
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - key_press_23_2.png'.
+
+# Created at 2025-04-02T02:36:33.382
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - key_press_23_3.png'.
+
+# Created at 2025-04-02T02:36:33.383
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - key_press_23_4.png'.
+
+# Created at 2025-04-02T02:36:33.383
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - key_press_23_5.png'.
+
+# Created at 2025-04-02T02:36:33.383
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - key_press_4.png'.
+
+# Created at 2025-04-02T02:36:33.383
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - menu_sideitems_click.png'.
+
+# Created at 2025-04-02T02:36:33.384
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - next_click_1.png'.
+
+# Created at 2025-04-02T02:36:33.384
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - next_click_2.png'.
+
+# Created at 2025-04-02T02:36:33.384
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream 'Processing Amazon Fire TV Stick 4K:7.1 - next_click_3.png'.
+
+# Created at 2025-04-02T02:36:33.398
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.398
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [get_started_click] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.398
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.398
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [key_press_22] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.398
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.399
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [key_press_23_2] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.399
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.400
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [key_press_23] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.400
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.400
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [key_press_23_4] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.400
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.401
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [key_press_23_3] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.401
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.401
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [key_press_23_5] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.401
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.401
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [key_press_4] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.401
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.402
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [next_click_1] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.402
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.402
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [menu_sideitems_click] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:33.402
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:33.403
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [next_click_3] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+
+# Created at 2025-04-02T02:36:38.415
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] Percy is not running, disabling snapshots'.
+
+# Created at 2025-04-02T02:36:38.418
+Corrupted STDOUT by directly writing to native stream in forked JVM 1. Stream '[[95mpercy[39m] [next_click_2] percy is disabled for session Amazon Fire TV Stick 4K7.1undefined1080x2400104portrait -> end'.
+

@@ -4,13 +4,13 @@
   <test thread-count="1" name="amazonFireTV-0(failed)" verbose="0">
     <parameter name="platform" value="0"/>
     <classes>
-      <class name="org.demo.amazonFireTV">
+      <class name="org.demo.amazonFireTVScreenshot">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="testt"/>
         </methods>
-      </class> <!-- org.demo.amazonFireTV -->
+      </class> <!-- org.demo.amazonFireTVScreenshot -->
     </classes>
   </test> <!-- amazonFireTV-0(failed) -->
 </suite> <!-- Failed suite [amazonFireTV] -->

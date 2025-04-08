@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@percy/appium-app": "^2.0.10-beta.0"
+  }
+}

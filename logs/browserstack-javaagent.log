@@ -421,3 +421,761 @@
 
 19:32:34.579 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/2bb8ab46ae6dcff5fbfc090703c1f2ea03106a1f
 19:32:34.580 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:51:30.007 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+01:51:30.008 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+01:51:30.093 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+01:51:30.094 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+01:51:30.115 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+01:51:30.118 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+01:51:30.585 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://506a7b1c148ce98416d0a7760f56d5dcb3b70774]
+01:51:30.585 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:51:36.856 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:51:37.990 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+01:51:38.290 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+01:51:38.290 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+01:51:41.602 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qc1p8rd6kcskfkjwgkifyulj4rswhotlin3d7rfj to view build report, insights, and many more debugging information all at one place!
+
+01:51:41.603 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:52:13.519 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+01:52:13.521 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+01:52:13.606 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+01:52:13.606 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+01:52:13.661 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+01:52:13.670 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+01:52:13.938 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://c365548a71221ba1596d2a0a4e0de4032b156637]
+01:52:13.938 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:52:18.964 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:52:19.816 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+01:52:20.262 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.c(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+01:52:20.262 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+01:52:23.277 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/mfggrbrugg3wzzhdtxe1erdmmvtawsz0kt5gk1fa to view build report, insights, and many more debugging information all at one place!
+
+01:52:23.277 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:10:17.335 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+23:10:17.336 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+23:10:17.412 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+23:10:17.412 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+23:10:17.438 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:10:17.442 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+23:10:17.548 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+23:10:17.548 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:10:17.549 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1167071d-3c3d-436f-ba87-87bdfd375c72
+23:10:17.549 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:10:19.980 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:10:20.891 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: wfgtekvlfcxeqlm9zepbmbhkkttwl9qxzvqnld85
+23:10:20.892 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:10:20.892 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:10:21.228 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+23:10:21.228 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+23:10:24.572 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/wfgtekvlfcxeqlm9zepbmbhkkttwl9qxzvqnld85 to view build report, insights, and many more debugging information all at one place!
+
+23:10:24.572 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:10:26.310 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 1167071d-3c3d-436f-ba87-87bdfd375c72, testhub id: wfgtekvlfcxeqlm9zepbmbhkkttwl9qxzvqnld85
+23:10:26.310 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:11:38.163 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+23:11:38.164 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+23:11:38.277 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+23:11:38.277 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+23:11:38.302 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:11:38.305 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+23:11:38.431 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+23:11:38.431 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:11:38.433 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 9e7bc340-e878-4c8b-bfcf-969931e796bc
+23:11:38.433 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:11:40.913 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:11:41.797 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: fpasg6amswyobceyopujpbylhebfamsttgscmznc
+23:11:41.797 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:11:41.798 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:11:42.087 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+23:11:42.088 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+23:11:44.917 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/fpasg6amswyobceyopujpbylhebfamsttgscmznc to view build report, insights, and many more debugging information all at one place!
+
+23:11:44.917 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:11:46.519 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 9e7bc340-e878-4c8b-bfcf-969931e796bc, testhub id: fpasg6amswyobceyopujpbylhebfamsttgscmznc
+23:11:46.520 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:13:35.592 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+23:13:35.592 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+23:13:35.673 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+23:13:35.673 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-appleTV.yml
+23:13:35.698 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:13:35.825 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://6d156ce4d160659d1be2dbd1685bcaed1da39394]
+23:13:35.825 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:13:35.826 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 95a9f2ba-b086-4e59-90b7-4c04b63a4afe
+23:13:35.826 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:13:38.164 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:13:39.038 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: vrypyeidvniyhddesij0a27gyqxxvj9pu51v0qzq
+23:13:39.038 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:13:39.039 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:13:39.392 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+23:13:39.393 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+23:13:42.566 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/vrypyeidvniyhddesij0a27gyqxxvj9pu51v0qzq to view build report, insights, and many more debugging information all at one place!
+
+23:13:42.567 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:13:44.118 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 95a9f2ba-b086-4e59-90b7-4c04b63a4afe, testhub id: vrypyeidvniyhddesij0a27gyqxxvj9pu51v0qzq
+23:13:44.119 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:04:58.287 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:04:58.287 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:04:58.367 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:04:58.367 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-appleTV.yml
+03:04:58.395 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:04:58.529 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://6d156ce4d160659d1be2dbd1685bcaed1da39394]
+03:04:58.529 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:04:58.530 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 02ebade3-7815-4966-9992-a670f7deb10a
+03:04:58.530 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:05:00.991 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:05:01.967 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: bg8xwv3rd6tgibpmskwranjzgs5rtqnra6zut91h
+03:05:01.967 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:05:01.968 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:05:02.989 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+03:05:02.990 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+03:05:05.746 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bg8xwv3rd6tgibpmskwranjzgs5rtqnra6zut91h to view build report, insights, and many more debugging information all at one place!
+
+03:05:05.746 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:05:07.393 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 02ebade3-7815-4966-9992-a670f7deb10a, testhub id: bg8xwv3rd6tgibpmskwranjzgs5rtqnra6zut91h
+03:05:07.393 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:05:55.051 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:05:55.051 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:05:55.128 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:05:55.129 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:05:55.201 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:05:55.217 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:05:55.640 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:05:55.640 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:05:55.642 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 7b8ccea8-1d04-4a60-9e11-5287fc60a46c
+03:05:55.642 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:05:58.139 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:05:59.036 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: ebl2xeylu0a4dvvorptjomg2hoobt22x0exxyyrl
+03:05:59.036 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:05:59.036 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:05:59.353 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+03:05:59.353 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+03:06:01.947 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ebl2xeylu0a4dvvorptjomg2hoobt22x0exxyyrl to view build report, insights, and many more debugging information all at one place!
+
+03:06:01.947 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:06:03.573 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 7b8ccea8-1d04-4a60-9e11-5287fc60a46c, testhub id: ebl2xeylu0a4dvvorptjomg2hoobt22x0exxyyrl
+03:06:03.573 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:08:17.554 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:08:17.555 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:08:17.642 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:08:17.642 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:08:17.674 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:08:17.678 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:08:17.827 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:08:17.827 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:08:17.828 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 4eaaab6b-e01b-4a80-b9d6-7674bff4d052
+03:08:17.828 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:08:20.198 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:08:21.229 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: iot3nien6wqawfeby6lg8l7dcfj6iziz1h5yjv1c
+03:08:21.229 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:08:21.229 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:08:21.560 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+03:08:21.561 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+03:08:24.180 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/iot3nien6wqawfeby6lg8l7dcfj6iziz1h5yjv1c to view build report, insights, and many more debugging information all at one place!
+
+03:08:24.180 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:08:25.900 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 4eaaab6b-e01b-4a80-b9d6-7674bff4d052, testhub id: iot3nien6wqawfeby6lg8l7dcfj6iziz1h5yjv1c
+03:08:25.900 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:13:03.887 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:13:03.887 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:13:03.966 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:13:03.966 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:13:03.995 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:13:03.999 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:13:04.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:13:04.127 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:13:04.128 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: b22d9761-4795-4e39-8f04-d87a5151a8a3
+03:13:04.128 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:13:06.459 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:13:07.379 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 6qztyhag6whs1tzbmxrowwcp2xcqy6gw1issvk3u
+03:13:07.380 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:13:07.380 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:13:07.724 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+03:13:07.725 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+03:15:00.701 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/6qztyhag6whs1tzbmxrowwcp2xcqy6gw1issvk3u to view build report, insights, and many more debugging information all at one place!
+
+03:15:00.702 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:15:03.184 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/8d2cf16cf8ccc519cbb81174e2fa52dc46f4422e
+03:15:03.184 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:15:03.201 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: b22d9761-4795-4e39-8f04-d87a5151a8a3, testhub id: 6qztyhag6whs1tzbmxrowwcp2xcqy6gw1issvk3u
+03:15:03.201 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:18:01.794 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:18:01.794 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:18:01.876 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:18:01.877 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:18:01.902 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:18:01.906 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:18:02.037 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:18:02.037 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:18:02.038 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 6f24877a-89dc-4368-8a88-3d0675d65882
+03:18:02.038 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:18:05.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:18:06.160 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: urjhjqirykrtfh192cpw9ef11ibd7ssvrdu17opk
+03:18:06.160 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:18:06.161 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:18:17.006 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+03:20:07.632 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/urjhjqirykrtfh192cpw9ef11ibd7ssvrdu17opk to view build report, insights, and many more debugging information all at one place!
+
+03:20:07.632 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:20:11.013 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+03:20:12.679 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/404fdeba4000da8c1e5c70e00c01599d48c7d63a
+03:20:12.679 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:20:12.690 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 6f24877a-89dc-4368-8a88-3d0675d65882, testhub id: urjhjqirykrtfh192cpw9ef11ibd7ssvrdu17opk
+03:20:12.690 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:22:10.317 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:22:10.317 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:22:10.400 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:22:10.401 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:22:10.431 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:22:10.434 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:22:10.566 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:22:10.566 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:22:10.567 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 39175856-d56c-4ea3-a70d-9c51f2a8fd1f
+03:22:10.567 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:22:13.642 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:22:14.784 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: sgqapw1bdmhoc7r3mdt2eetpahz4mfvyl5e95ijv
+03:22:14.784 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:22:14.784 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:22:26.647 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+03:24:17.990 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/sgqapw1bdmhoc7r3mdt2eetpahz4mfvyl5e95ijv to view build report, insights, and many more debugging information all at one place!
+
+03:24:17.991 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:24:21.323 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+03:24:23.524 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/d8597a5f3135363e22a7ac7a51eb42b38f3876ec
+03:24:23.524 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:24:23.547 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 39175856-d56c-4ea3-a70d-9c51f2a8fd1f, testhub id: sgqapw1bdmhoc7r3mdt2eetpahz4mfvyl5e95ijv
+03:24:23.548 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:33:16.720 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:33:16.721 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:33:16.828 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:33:16.828 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/browserstack.yml
+03:33:16.857 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:33:16.860 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:33:16.998 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://b359a0393ae2b96b331c26a80a5395b530375dae]
+03:33:16.998 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:33:17.000 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 61e416c0-ddc7-430c-b2aa-5f314036941d
+03:33:17.000 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:33:19.574 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:33:20.459 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: so9rnrwn9brfe54cnzlusahqcciwtsi4fsuyoksb
+03:33:20.460 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:33:20.460 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:33:20.772 [main] ERROR com.browserstack.PercyFactory - Error fetching percy token for project : %s.
+java.lang.IllegalArgumentException: No enum constant com.browserstack.percy.PercyCaptureMode.NULL
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.browserstack.percy.PercyCaptureMode.valueOf(Unknown Source)
+	at com.browserstack.percy.PercyCaptureMode.fromString(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+03:33:20.772 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.NullPointerException: Cannot invoke "String.split(String)" because the return value of "com.browserstack.PercyFactory.a(com.browserstack.config.BrowserStackConfig)" is null.
+03:33:21.205 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/so9rnrwn9brfe54cnzlusahqcciwtsi4fsuyoksb to view build report, insights, and many more debugging information all at one place!
+
+03:33:21.205 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:33:23.512 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 61e416c0-ddc7-430c-b2aa-5f314036941d, testhub id: so9rnrwn9brfe54cnzlusahqcciwtsi4fsuyoksb
+03:33:23.512 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:37:14.175 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:37:14.176 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:37:14.427 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:37:14.428 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:37:14.482 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:37:14.492 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:37:14.808 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:37:14.808 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:37:14.812 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: ff277be4-85b9-44b5-ba24-ef283b0f28ee
+03:37:14.812 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:37:17.238 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:37:18.477 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: tlux0h8kokn7b4rxygpcjfvhmnnmwmuclhphftbt
+03:37:18.477 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:37:18.478 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:37:34.542 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+03:39:31.995 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/tlux0h8kokn7b4rxygpcjfvhmnnmwmuclhphftbt to view build report, insights, and many more debugging information all at one place!
+
+03:39:31.996 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:39:36.516 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+03:39:38.510 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/72882df9c8b7c2f54972090e1cc06cb92b7da56f
+03:39:38.511 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:39:38.527 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: ff277be4-85b9-44b5-ba24-ef283b0f28ee, testhub id: tlux0h8kokn7b4rxygpcjfvhmnnmwmuclhphftbt
+03:39:38.527 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:45:28.439 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:45:28.439 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:45:28.538 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:45:28.538 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:45:28.579 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:45:28.587 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:45:28.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:45:28.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:45:28.730 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: d62a45c0-aa97-4f44-93da-c18af0e88fcc
+03:45:28.730 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:45:31.168 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:45:32.189 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: bdmshkqsbpdd9lkrr7zpp8vl6jk0kd05h14npgd5
+03:45:32.189 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:45:32.191 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:45:43.764 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+03:47:38.847 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/bdmshkqsbpdd9lkrr7zpp8vl6jk0kd05h14npgd5 to view build report, insights, and many more debugging information all at one place!
+
+03:47:38.847 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:47:42.275 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+03:47:44.146 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/790054e4f731363fba5bcc6c3aa869b617038664
+03:47:44.151 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:47:44.177 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: d62a45c0-aa97-4f44-93da-c18af0e88fcc, testhub id: bdmshkqsbpdd9lkrr7zpp8vl6jk0kd05h14npgd5
+03:47:44.177 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:49:42.804 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:49:42.805 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:49:42.900 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:49:42.901 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:49:42.929 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:49:42.934 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:49:43.099 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:49:43.099 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:49:43.101 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 43b345f0-c06c-4272-8696-c22f4f799876
+03:49:43.101 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:49:45.503 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:49:46.534 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: nc8boa8wssqrb5hxpmqidtdolbmfpo2zeakjh4wt
+03:49:46.535 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:49:46.535 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:49:58.353 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+03:50:44.876 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/nc8boa8wssqrb5hxpmqidtdolbmfpo2zeakjh4wt to view build report, insights, and many more debugging information all at one place!
+
+03:50:44.877 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:50:50.385 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+03:50:52.153 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/cc2bdb9a90272087f400dfc4fb94a2d4f0a18031
+03:50:52.153 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:50:52.160 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 43b345f0-c06c-4272-8696-c22f4f799876, testhub id: nc8boa8wssqrb5hxpmqidtdolbmfpo2zeakjh4wt
+03:50:52.160 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:53:13.359 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:53:13.360 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:53:13.458 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:53:13.458 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:53:13.489 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:53:13.493 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:53:13.822 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:53:13.822 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:53:13.824 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 105c5066-8bdb-4192-8610-e02a12ceea80
+03:53:13.824 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:53:16.198 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:53:17.537 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 4ixw4vgfhchu6jjlsyojuurqmoujfslcpxfqxrhx
+03:53:17.537 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:53:17.537 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:53:29.819 [Thread-7] INFO  com.browserstack.percy.Percy - Percy started successfully
+03:55:30.122 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/4ixw4vgfhchu6jjlsyojuurqmoujfslcpxfqxrhx to view build report, insights, and many more debugging information all at one place!
+
+03:55:30.123 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:55:33.415 [Thread-0] INFO  com.browserstack.PercyFactory - Percy stopped successfully
+03:55:35.042 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/abda79ba333f949e3b90d6759ae5379ee7659d95
+03:55:35.042 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:55:35.050 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 105c5066-8bdb-4192-8610-e02a12ceea80, testhub id: 4ixw4vgfhchu6jjlsyojuurqmoujfslcpxfqxrhx
+03:55:35.050 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:07:59.161 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+02:07:59.161 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+02:07:59.240 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+02:07:59.240 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+02:07:59.265 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:07:59.268 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:07:59.375 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+02:07:59.375 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:07:59.377 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: a5b916be-ae43-4f93-b828-17ae5a44bdda
+02:07:59.377 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:08:01.818 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:08:02.831 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: qpvsniw18f1q1bfk05zp6ivnfosy6erifclw3eus
+02:08:02.832 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:08:02.832 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+02:08:03.163 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+02:10:47.607 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/qpvsniw18f1q1bfk05zp6ivnfosy6erifclw3eus to view build report, insights, and many more debugging information all at one place!
+
+02:10:47.607 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:10:49.428 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/5deab8be0d45fc43aa7a4d14aadda2389520344d
+02:10:49.428 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:10:49.443 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: a5b916be-ae43-4f93-b828-17ae5a44bdda, testhub id: qpvsniw18f1q1bfk05zp6ivnfosy6erifclw3eus
+02:10:49.443 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:16:39.563 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+02:16:39.563 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+02:16:39.640 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+02:16:39.640 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+02:16:39.664 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:16:39.667 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:16:39.795 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+02:16:39.795 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:16:39.796 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 2abe40c0-d096-49d9-be8c-f75c409bc1f5
+02:16:39.796 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:16:42.201 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:16:43.389 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: kx4h8cuiiioi4eldjepz9lozhrbdfm1nca2xcpxl
+02:16:43.390 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:16:43.390 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+02:16:44.365 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+02:19:30.734 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/kx4h8cuiiioi4eldjepz9lozhrbdfm1nca2xcpxl to view build report, insights, and many more debugging information all at one place!
+
+02:19:30.735 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:19:33.018 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/b5744072afc11cc05d5836be43dc5749ef4cd0f9
+02:19:33.018 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:19:33.034 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 2abe40c0-d096-49d9-be8c-f75c409bc1f5, testhub id: kx4h8cuiiioi4eldjepz9lozhrbdfm1nca2xcpxl
+02:19:33.034 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:26:03.653 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+02:26:03.653 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+02:26:03.733 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+02:26:03.734 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+02:26:03.760 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:26:03.764 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:26:03.892 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+02:26:03.892 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:26:03.893 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: aa2bc11b-4d75-4785-b622-14175e1af79f
+02:26:03.893 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:26:06.482 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:26:07.511 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: p8vjzercm5yf5aut1j6emaifuf2dl67mihsafn4x
+02:26:07.511 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:26:07.512 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+02:26:07.835 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+02:29:19.979 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/p8vjzercm5yf5aut1j6emaifuf2dl67mihsafn4x to view build report, insights, and many more debugging information all at one place!
+
+02:29:19.980 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:29:22.043 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/dffc7a822a4180dbd1f8b0b004e4a646fd2f7866
+02:29:22.043 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:29:22.063 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: aa2bc11b-4d75-4785-b622-14175e1af79f, testhub id: p8vjzercm5yf5aut1j6emaifuf2dl67mihsafn4x
+02:29:22.063 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:30:21.133 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+02:30:21.134 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+02:30:21.210 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+02:30:21.210 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+02:30:21.235 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:30:21.238 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:30:21.364 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+02:30:21.364 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:30:21.365 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3963fec3-793f-48b0-b78a-9376bdb61ebf
+02:30:21.365 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:30:24.291 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:30:25.249 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: ijn4kuzxgtm3htveab10e7hsmc0vjssdhfmasz4h
+02:30:25.249 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:30:25.250 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+02:30:25.577 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+02:34:10.139 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ijn4kuzxgtm3htveab10e7hsmc0vjssdhfmasz4h to view build report, insights, and many more debugging information all at one place!
+
+02:34:10.140 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:34:12.780 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/a059990a213615de54fd5e4ee7fac67f13bd4294
+02:34:12.780 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:34:12.794 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 3963fec3-793f-48b0-b78a-9376bdb61ebf, testhub id: ijn4kuzxgtm3htveab10e7hsmc0vjssdhfmasz4h
+02:34:12.794 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:34:25.530 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+02:34:25.530 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+02:34:25.664 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+02:34:25.664 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+02:34:25.691 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:34:25.694 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:34:25.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+02:34:25.829 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:34:25.830 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 756c1c62-fc0a-4955-a370-27ff083e8ba5
+02:34:25.830 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:34:28.754 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:34:29.746 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: kqvyywmzwzvxeuxulu0zxsw4wkgm1ihr7h2n5jr5
+02:34:29.746 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:34:29.746 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+02:34:30.082 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+02:37:18.871 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/kqvyywmzwzvxeuxulu0zxsw4wkgm1ihr7h2n5jr5 to view build report, insights, and many more debugging information all at one place!
+
+02:37:18.871 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:37:21.369 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/38df87b209348ea92706102d44ae0855219a4a08
+02:37:21.369 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:37:21.385 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 756c1c62-fc0a-4955-a370-27ff083e8ba5, testhub id: kqvyywmzwzvxeuxulu0zxsw4wkgm1ihr7h2n5jr5
+02:37:21.386 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:39:01.309 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+02:39:01.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+02:39:01.388 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+02:39:01.388 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+02:39:01.412 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:39:01.415 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:39:01.542 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+02:39:01.543 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:39:01.544 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 12f648a3-b527-4a48-a3d9-04c0f161522b
+02:39:01.544 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:39:03.821 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:39:04.733 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: wkvdyoaye9bjgmejfp3peexfe13nvvpog7sz3s5f
+02:39:04.733 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:39:04.733 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+02:39:05.042 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+02:42:11.250 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/wkvdyoaye9bjgmejfp3peexfe13nvvpog7sz3s5f to view build report, insights, and many more debugging information all at one place!
+
+02:42:11.251 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:42:13.147 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e69a25605d060322489918b930786ebb5f5a7b51
+02:42:13.148 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:42:13.154 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 12f648a3-b527-4a48-a3d9-04c0f161522b, testhub id: wkvdyoaye9bjgmejfp3peexfe13nvvpog7sz3s5f
+02:42:13.154 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:20:55.855 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+20:20:55.856 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+20:20:56.145 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+20:20:56.146 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+20:20:56.230 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:20:56.241 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+20:20:56.778 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+20:20:56.778 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:20:56.788 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: c59e190e-cdb4-4316-b51a-1579a07ba063
+20:20:56.789 [main] INFO  c.b.config.BrowserStackConfig - INFO
+20:20:59.668 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:21:00.922 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 9qvygaodovtgjjgbg6ujjxs7maff5fqctra7rpmy
+20:21:00.922 [main] INFO  c.b.config.BrowserStackConfig - INFO
+20:21:00.922 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+20:21:01.460 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+20:21:09.917 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/9qvygaodovtgjjgbg6ujjxs7maff5fqctra7rpmy to view build report, insights, and many more debugging information all at one place!
+
+20:21:09.917 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:21:12.501 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: c59e190e-cdb4-4316-b51a-1579a07ba063, testhub id: 9qvygaodovtgjjgbg6ujjxs7maff5fqctra7rpmy
+20:21:12.501 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:26:17.724 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+20:26:17.726 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+20:26:18.021 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+20:26:18.022 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+20:26:18.109 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:26:18.125 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+20:26:18.574 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+20:26:18.574 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:26:18.579 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3a797232-853d-4d89-b57a-1c00d73657dd
+20:26:18.579 [main] INFO  c.b.config.BrowserStackConfig - INFO
+20:26:21.959 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:26:23.329 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: hx9ff96l40ahqvz8qc8yzybxlfp366yjujhgayqv
+20:26:23.329 [main] INFO  c.b.config.BrowserStackConfig - INFO
+20:26:23.330 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+20:26:23.698 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+20:29:57.338 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/hx9ff96l40ahqvz8qc8yzybxlfp366yjujhgayqv to view build report, insights, and many more debugging information all at one place!
+
+20:29:57.340 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:30:00.620 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/6fb7bf9374f508b45821784f1c361a843d5d47a7
+20:30:00.623 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:30:00.704 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 3a797232-853d-4d89-b57a-1c00d73657dd, testhub id: hx9ff96l40ahqvz8qc8yzybxlfp366yjujhgayqv
+20:30:00.705 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:31:43.182 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+20:31:43.184 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+20:31:43.537 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+20:31:43.538 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+20:31:43.679 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:31:43.691 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+20:31:44.238 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+20:31:44.238 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:31:44.242 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 6ae3453c-5ecb-44c5-ae22-c81aac34c4e5
+20:31:44.242 [main] INFO  c.b.config.BrowserStackConfig - INFO
+20:31:46.983 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:31:48.343 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 54cfamxwbsggsql4dbegfpmzkbiaduxgkowfn5b4
+20:31:48.344 [main] INFO  c.b.config.BrowserStackConfig - INFO
+20:31:48.344 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+20:31:48.798 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+20:35:09.592 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/54cfamxwbsggsql4dbegfpmzkbiaduxgkowfn5b4 to view build report, insights, and many more debugging information all at one place!
+
+20:35:09.593 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:35:12.996 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e962dfb61323e21f998108bd0f4ba87a196420c4
+20:35:12.996 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:35:13.023 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 6ae3453c-5ecb-44c5-ae22-c81aac34c4e5, testhub id: 54cfamxwbsggsql4dbegfpmzkbiaduxgkowfn5b4
+20:35:13.024 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:23:35.916 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+02:23:35.916 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+02:23:36.059 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+02:23:36.059 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+02:23:36.112 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:23:36.120 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:23:36.364 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+02:23:36.364 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:23:36.367 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 2470ae6c-64ac-4e57-b895-bdaf21f8af64
+02:23:36.367 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:23:38.766 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:23:39.796 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 0kdb1s06lvb2omu8i2qtmnolgg9iomiwhkddhhb7
+02:23:39.796 [main] INFO  c.b.config.BrowserStackConfig - INFO
+02:23:39.796 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+02:23:40.666 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+02:27:11.421 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/0kdb1s06lvb2omu8i2qtmnolgg9iomiwhkddhhb7 to view build report, insights, and many more debugging information all at one place!
+
+02:27:11.422 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:27:13.280 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/e834dfe0e1c47964f1723b877dff331824b090bd
+02:27:13.281 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:27:13.286 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 2470ae6c-64ac-4e57-b895-bdaf21f8af64, testhub id: 0kdb1s06lvb2omu8i2qtmnolgg9iomiwhkddhhb7
+02:27:13.286 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:10:56.474 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.16.1
+03:10:56.474 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.0.0
+03:10:56.554 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, user.dir=/Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java, localrepository=/Users/siddhirao/.m2/repository}
+03:10:56.555 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/siddhirao/Documents/SidProjects/smartTV/browserstack-example-smartTV-appium-java/src/resources/conf/browserstack-amazonFireTV.yml
+03:10:56.581 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+03:10:56.584 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+03:10:56.709 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://60900b07f2a370ebb40da7293ad873c4e96a2f97]
+03:10:56.709 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+03:10:56.711 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: bc5d2789-3e4f-4d2e-9a14-0c13c2d5365d
+03:10:56.711 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:10:59.065 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+03:11:00.233 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: ub2pguckflaytiuwpqppm0auvcsdspzh4fplg7kj
+03:11:00.233 [main] INFO  c.b.config.BrowserStackConfig - INFO
+03:11:00.234 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+03:11:00.535 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed java.lang.Exception: Could not get percy token.
+03:14:26.963 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ub2pguckflaytiuwpqppm0auvcsdspzh4fplg7kj to view build report, insights, and many more debugging information all at one place!
+
+03:14:26.963 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:14:28.521 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/075bda43b20fa80ddc6edcde95992d25f3ad4d10
+03:14:28.522 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+03:14:28.528 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: bc5d2789-3e4f-4d2e-9a14-0c13c2d5365d, testhub id: ub2pguckflaytiuwpqppm0auvcsdspzh4fplg7kj
+03:14:28.528 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
