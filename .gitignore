@@ -1,5 +1,5 @@
 # ignore ALL .log files
-*.log
+
 
 *.logs
 
@@ -8,8 +8,10 @@ temp/
 
 .DS_STORE
 
-.idea
-
 node_modules/
 
+
+.idea/
 target/
+*.log
+.env
