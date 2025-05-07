@@ -36,11 +36,12 @@ app: bs://60900b07f2a370ebb40da7293ad873c4e96a2f97 # BrowserStack Sample App
 # =======================================
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
-dedicatedDevice: true
+#dedicatedDevice: true
 platforms:
-  - device: Amazon Fire TV Stick 4K
+  - deviceName: Amazon Fire TV Stick 4K
     osVersion: 7.1
     platformName: android
+    dedicatedDevice : true
 
 
 # =======================
